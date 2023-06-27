@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-logo h1 {
+  font-weight: normal;
+}
+.site-bio {
+  text-align: center;
+  font-size: 30px;
+  word-break:break-all;
+}
+.navbar {
+  display: flex;
+  padding: 50px;
+  padding-right: 150px;
+  justify-content: space-between;
+}
+
+.site-logo {
+  font-weight: 200;
+  font-size: 30px;
+}
+.navbar-items {
+  display: flex;
+}
+
+.navbar-items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-items ul li {
+  padding-left: 10px;
+}
