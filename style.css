@@ -11,15 +11,10 @@ body {
 .navbar-logo h1 {
   font-weight: normal;
 }
-.site-bio {
-  text-align: center;
-  font-size: 30px;
-  word-break:break-all;
-}
+
 .navbar {
   display: flex;
   padding: 50px;
-  padding-right: 150px;
   justify-content: space-between;
 }
 
@@ -38,4 +33,40 @@ body {
 
 .navbar-items ul li {
   padding-left: 10px;
+}
+
+.site-bio {
+  text-align: center;
+  font-size: 30px;
+  word-break: break-all;
+  height: 150px;
+}
+
+.projects-container {
+  margin: 50px;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects-container h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.projects-container h3 {
+  font-weight: normal;
+}
+
+.projects-container p {
+  font-weight: normal;
+  margin: 10px;
+  color: #2a7afa;
+}
+.project {
+  width: 250px;
+  height: 250px;
+  background: #fa5a2a;
+  margin: 10px 100px 10px 0px;
 }
