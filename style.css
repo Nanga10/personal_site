@@ -6,12 +6,34 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #32174a;
+  color: #ffff;
 }
 
-.navbar-logo h1 {
-  font-weight: normal;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  padding: 10px;
+  height: 100vh;
+}
+.container p {
+  color: #8f839a;
+  font-size: 14px;
 }
 
+.container h3 {
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar-logo p {
+  font-size: 12px;
+}
 .navbar {
   display: flex;
   padding: 50px;
@@ -26,13 +48,13 @@ body {
   display: flex;
 }
 
-a {
+.navbar-items a {
   text-decoration: none;
-  color: #fa5a2a;
+  color: #8f839a;
 }
 
-a:hover {
-  color: #332E33;
+.navbar-items a:hover {
+  color: #513d63;
 }
 
 .navbar-items ul {
@@ -44,41 +66,52 @@ a:hover {
   padding-left: 10px;
 }
 
-.site-bio-container {
+.name-title h2 {
+  font-weight: 10;
+}
+
+
+.title p {
+  color: #ffff;
+}
+
+.experience {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
-
-.site-bio {
-  text-align: center;
-  font-size: 30px;
-  width: 500px;
-}
-
-.projects-container {
-  margin: 50px;
-}
-
-.projects {
+.work-experience {
   display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item {
+  display: flex;
+  gap: 10px;
 }
 
-.projects-container h2 {
-  font-weight: normal;
-  margin-bottom: 10px;
+.item a {
+  color: #ffff;
+  text-decoration: none;
 }
 
-.projects-container h3 {
-  font-weight: normal;
+.item a:hover {
+  color: #ffff;
+  text-decoration: underline;
 }
 
-.projects-container p {
-  font-weight: normal;
-  margin: 10px;
+.date {
+  width: 100px;
 }
-.project {
-  width: 250px;
-  height: 250px;
-  background: #fa5a2a;
-  margin: 10px 100px 10px 0px;
+.footer {
+  font-size: 15px;
+  margin: 10px 10px;
 }
+
+.bar {
+  background: #513d63;
+  width: 90px;
+  height: 3px;
+}
+
+ 
